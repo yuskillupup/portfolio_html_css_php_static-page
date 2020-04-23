@@ -13,7 +13,7 @@
 
 <body>
   <header class="partner-header">
-    <span class="partner-header-text"><a href="#"></a></span>
+    <span class="partner-header-text"><a href="#"><img src="./img/logo.svg"></a></span>
     <span class="partner-header-text-right"><a href="#">運営会社</a></span>
     <span class="partner-header-text-right">サービス概要</span>
   </header>
@@ -32,10 +32,11 @@
                 <p class="main__hero__left__msg2">ポートフォリオ</p>
                 <p class="main__hero__left__msg3">閲覧ありがとうございます</p>
                 <button class="main__hero__left--button">
-                  <a href="/application/input.php">ボタン</a>
+                  <a href="/application/input.php">button</a>
                 </button>
             </div>
         </div>
+        
         <!-- 一時的に非表示
         <div class="main__purpose">
           <p class="main__purpose__heading">
@@ -244,7 +245,7 @@
 
   <footer>
     <div class="footer-content">
-      <div class="footer-logo"></div>
+      <div class="footer-logo"><img src="./img/logo.svg"></div>
       <div class="footer-info">
         <p class="footer-info-add">〒100-0000<br>東京都渋谷区</p>
         <p class="copy">&copy; Inc. All rights reserved.</p>
