@@ -1,0 +1,17 @@
+version: '3'
+services:
+  nginx:
+    image: nginx:1.17-alpine
+    volumes:
+      - ./nginx/default.conf:/etc/nginx/conf.d/default.conf
+      - ../project/hp/app/:/var/www/hp/
+    ports:
+      - "8001:8001"
+      - "8002:8002"
+    depends_on:
+      - php-fpm
+  php-fpm:
+    image: php:7.3-fpm-alpine
+    volumes:
+      - ../project/hp/app/:/var/www/hp/
+
