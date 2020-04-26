@@ -4,21 +4,21 @@
 
 ### リポジトリのクローン
 
-'git clone https://'
+`git clone https://`
 
 ### edgematrix-webのクローン
 
 - `project`ディレクトリ配下に、webのクローン
 
-'cd project'<br>
-'git clone https://'
+`cd project`<br>
+`git clone git@github.com:yuskillupup/portfolio_html_css_php_static-page.git`
 
 ### dockerの立ち上げ
 
 - `docker`ディレクトリに移動し、dockerの立ち上げ
 
-'cd docker'<br>
-'docker-compose up -d'
+`cd docker`<br>
+`docker-compose up -d`
 
 ### アクセス
 
