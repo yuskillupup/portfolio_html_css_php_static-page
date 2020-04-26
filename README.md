@@ -10,14 +10,14 @@ git clone https://
 
 - `project`ディレクトリ配下に、webのクローン
 
-cd project
+cd project<br>
 git clone https://
 
 ### dockerの立ち上げ
 
 - `docker`ディレクトリに移動し、dockerの立ち上げ
 
-cd docker
+cd docker<br>
 docker-compose up -d
 
 ### アクセス
