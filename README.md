@@ -25,6 +25,6 @@ docker-compose up -d
 - 以下にアクセスして、トップページが表示されれば、構築成功です
 
 
-http://localhost:8001/
+http://localhost:8001/ <br>
 http://localhost:8002/
 
